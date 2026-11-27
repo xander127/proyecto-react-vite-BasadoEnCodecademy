@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards-header{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 40px;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    h2{
+        color: white;
+    }
+}
+
+.cards-body{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.type-card{
+    background-color: rgb(0, 6, 37);
+    display: flex;
+    flex-direction: column;
+    width: 350px;   
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    border: .1px solid rgb(73, 73, 73);
+}
+
+.type-card:hover{
+    transition: 0.5s;
+    box-shadow: -10px 10px white;
+}
+
+.type-card h3{
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+.type-card p{
+    text-align: start;
+}
+
+.courses-type{
+    max-width: 100px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 2px 5px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.card-footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: gray;
+}
